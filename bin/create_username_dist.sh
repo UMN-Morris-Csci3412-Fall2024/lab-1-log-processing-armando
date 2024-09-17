@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z "$1" ]; thenS
+if [ -z "$1" ]; then
   echo "Usage: $0 <directory>"
   exit 1
 fi
@@ -46,7 +46,6 @@ else
   echo "Footer file missing: $footer_file"
   exit 1
 fi
-
 rm -f "$temp_usernames"
 
 echo "Username distribution chart created: $output_file"
