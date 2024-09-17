@@ -4,12 +4,12 @@ if [ $# -ne 1 ]; then
   echo "Usage: $0 <directory>"
   exit 1
 fi
+
 directory="$1"
 if ! cd "$directory"; then
   echo "Error: Unable to access directory $directory"
   exit 1
 fi
-
 temp_file=$(mktemp)
 
 awk '{print $3}' $(find . -type f -name "failed_login_data.txt") | sort | uniq -c | \
