@@ -24,12 +24,15 @@ cat "$header" > "$output"
 
 temp=$(mktemp)
 
-for sub in */; do
-    login="${sub}failed_login_data.txt"
-    if [ -f "$login" ]; then
-        awk '{print $3}' "$login" >> "$temp"
+for sub_dir in $(ls -d */); do
+    login_file="${sub_dir}failed_login_data.txt"
+    if [ -f "$login_file" ]; then
+        while read -r line; do
+            echo "$line" | awk '{print $3}' >> "$temp"
+        done < "$login_file"
     fi
 done
+
 
 if [ -s "$temp" ]; then
     sort "$temp" | uniq -c | awk '{print "data.addRow([\x27" $2 "\x27, " $1 "]);"}' >> "$output"
