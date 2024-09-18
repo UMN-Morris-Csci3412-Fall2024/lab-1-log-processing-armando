@@ -32,9 +32,7 @@ for sub in */; do
 done
 
 if [ -s "$temp" ]; then
-    sort "$temp" | uniq -c | awk '{
-        printf "data.addRow([\x27%s\x27, %d]);\n", $2, $1
-    }' >> "$output"
+    sort "$temp" | uniq -c | awk '{print "data.addRow([\x27" $2 "\x27, " $1 "]);"}' >> "$output"
 else
     echo "Error: No login data found."
     rm -f "$temp"
