@@ -24,12 +24,12 @@ cat "$header" > "$output"
 
 temp=$(mktemp)
 
-for sub_dir in $(ls -d */); do
-    login_file="${sub_dir}failed_login_data.txt"
-    if [ -f "$login_file" ]; then
+for sub in $(ls -d */); do
+    login="${sub}failed_login_data.txt"
+    if [ -f "$login" ]; then
         while read -r line; do
             echo "$line" | awk '{print $3}' >> "$temp"
-        done < "$login_file"
+        done < "$login"
     fi
 done
 
