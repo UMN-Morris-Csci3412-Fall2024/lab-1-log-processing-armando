@@ -34,7 +34,7 @@ done
 if [ -s "$temp" ]; then
     sort "$temp" | uniq -c | awk '{print "data.addRow([\x27" $2 "\x27, " $1 "]);"}' >> "$output"
 else
-    echo "Error: No login data found."
+    echo "error no login data found."
     rm -f "$temp"
     exit 1
 fi
@@ -42,4 +42,4 @@ cat "$footer" >> "$output"
 
 rm -f "$temp"
 
-echo "Hours distribution chart created at $output"
+echo "hours distribution chart created at $output"
