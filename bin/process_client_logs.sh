@@ -11,7 +11,7 @@ if ! cd "$directory"; then
   exit 1
 fi
 
-output_file="failed_login_data.txt"
+output="failed_login_data.txt"
 grep -h 'Failed password' $(find . -type f) | awk '
   /invalid user/ {
     print $1, $2, substr($3, 1, 2), $11, $13;
@@ -19,10 +19,10 @@ grep -h 'Failed password' $(find . -type f) | awk '
   !/invalid user/ {
     print $1, $2, substr($3, 1, 2), $9, $11;
   }
-' > "$output_file"
+' > "$output"
 
-if [ -f "$output_file" ]; then
-  echo "Failed login data written to $output_file"
+if [ -f "$output" ]; then
+  echo "Failed login data written to $output"
 else
   echo "Error: Failed to write login data"
   exit 1

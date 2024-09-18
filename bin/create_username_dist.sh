@@ -4,45 +4,40 @@ if [ -z "$1" ]; then
   echo "Usage: $0 <directory>"
   exit 1
 fi
-target_dir="$1"
-if ! cd "$target_dir"; then
-  echo "Error: Unable to access directory $target_dir"
+target="$1"
+if ! cd "$target"; then
+  echo "Error: Unable to access directory $target"
   exit 1
 fi
-output_file="username_dist.html"
-header_file="../html_components/username_dist_header.html"
-footer_file="../html_components/username_dist_footer.html"
-if [ -f "$header_file" ]; then
-  cat "$header_file" > "$output_file"
+out="username_dist.html"
+head="../html_components/username_dist_header.html"
+foot="../html_components/username_dist_footer.html"
+if [ -f "$head" ]; then
+  cat "$head" > "$out"
 else
-  echo "Header file missing: $header_file"
+  echo "Header file missing: $head"
   exit 1
 fi
-
-temp_usernames=$(mktemp)
-
+temp=$(mktemp)
 find . -mindepth 1 -maxdepth 1 -type d | while read -r sub_dir; do
-  login_file="$sub_dir/failed_login_data.txt"
-  if [ -f "$login_file" ]; then
-    awk '{print $4}' "$login_file" >> "$temp_usernames"
+  login="$sub_dir/failed_login_data.txt"
+  if [ -f "$login" ]; then
+    awk '{print $4}' "$login" >> "$temp"
   fi
 done
-
-if [ -s "$temp_usernames" ]; then
-  sort "$temp_usernames" | uniq -c | while read -r count username; do
-    printf "data.addRow([\x27%s\x27, %d]);\n" "$username" "$count" >> "$output_file"
+if [ -s "$temp" ]; then
+  sort "$temp" | uniq -c | while read -r count username; do
+    printf "data.addRow([\x27%s\x27, %d]);\n" "$username" "$count" >> "$out"
   done
 else
   echo "No usernames found."
   exit 1
 fi
-
-if [ -f "$footer_file" ]; then
-  cat "$footer_file" >> "$output_file"
+if [ -f "$foot" ]; then
+  cat "$foot" >> "$out"
 else
-  echo "Footer file missing: $footer_file"
+  echo "Footer file missing: $foot"
   exit 1
 fi
-rm -f "$temp_usernames"
-
-echo "Username distribution chart created: $output_file"
+rm -f "$temp"
+echo "Username distribution chart created: $out"
