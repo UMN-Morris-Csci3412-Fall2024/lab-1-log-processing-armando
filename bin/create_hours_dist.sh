@@ -16,7 +16,7 @@ header="../html_components/hours_dist_header.html"
 footer="../html_components/hours_dist_footer.html"
 
 if [ ! -f "$header" ] || [ ! -f "$footer" ]; then
-  echo "error, missing required header or footer files."
+  echo "Error: Missing required header or footer files."
   exit 1
 fi
 
@@ -24,25 +24,25 @@ cat "$header" > "$output"
 
 temp=$(mktemp)
 
-for sub in $(ls -d */); do
+for sub in */; do
     login="${sub}failed_login_data.txt"
     if [ -f "$login" ]; then
+
         while read -r line; do
             echo "$line" | awk '{print $3}' >> "$temp"
         done < "$login"
     fi
 done
 
-
 if [ -s "$temp" ]; then
     sort "$temp" | uniq -c | awk '{print "data.addRow([\x27" $2 "\x27, " $1 "]);"}' >> "$output"
 else
-    echo "error no login data found."
+    echo "Error: No login data found."
     rm -f "$temp"
     exit 1
 fi
-cat "$footer" >> "$output"
 
+cat "$footer" >> "$output"
 rm -f "$temp"
 
-echo "hours distribution chart created at $output"
+echo "Hours distribution chart created at $output"
