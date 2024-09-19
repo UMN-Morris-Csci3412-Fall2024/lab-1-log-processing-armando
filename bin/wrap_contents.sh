@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ "$#" -ne 3 ]; then
   echo "$0 content_file specifier output_file"
   exit 1

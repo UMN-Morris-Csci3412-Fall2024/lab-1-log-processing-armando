@@ -30,7 +30,6 @@ for ARCHIVE in "$@"; do
   fi
 done
 
-# Generate the username distribution chart
 if bin/create_username_dist.sh "$SCRATCH_DIR"; then
   echo "Generated username distribution."
 else
@@ -38,7 +37,6 @@ else
   exit 1
 fi
 
-# Generate the hours distribution chart
 if bin/create_hours_dist.sh "$SCRATCH_DIR"; then
   echo "Generated hours distribution."
 else
@@ -46,7 +44,7 @@ else
   exit 1
 fi
 
-# Generate the country distribution chart
+
 if bin/create_country_dist.sh "$SCRATCH_DIR"; then
   echo "Generated country distribution."
 else
@@ -54,7 +52,6 @@ else
   exit 1
 fi
 
-# Assemble the final report
 if bin/assemble_report.sh "$SCRATCH_DIR"; then
   echo "Report assembled successfully."
 else
@@ -62,7 +59,6 @@ else
   exit 1
 fi
 
-# Move the final report to the current directory
 if mv "$SCRATCH_DIR/failed_login_summary.html" .; then
   echo "Report generated successfully: failed_login_summary.html"
 else
