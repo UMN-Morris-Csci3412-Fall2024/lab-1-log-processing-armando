@@ -30,12 +30,13 @@ fi
 
 temp=$(mktemp)
 
-find . -mindepth 1 -maxdepth 1 -type d | while read -r sub_dir; do
-  login_file="$sub_dir/failed_login_data.txt"
+for sub_dir in */; do
+  login_file="${sub_dir%/}/failed_login_data.txt"  
   if [ -f "$login_file" ]; then
-    awk '{print $5}' "$login_file" >> "$temp"  
+    awk '{print $5}' "$login_file" >> "$temp"
   fi
 done
+
 
 mapped=$(mktemp)
 sort "$temp" | join -1 1 -2 1 -o 2.2 - "$country_ip_map" > "$mapped"
