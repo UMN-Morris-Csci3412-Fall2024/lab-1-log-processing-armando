@@ -1,0 +1,188 @@
+Aug  8 13:14:26 velcro sshd[4265]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  8 13:14:26 velcro unix_chkpwd[4268]: password check failed for user (root)
+Aug  8 13:14:26 velcro sshd[4265]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
+Aug  8 13:14:28 velcro sshd[4265]: Failed password for root from 62.76.47.113 port 45743 ssh2
+Aug  8 13:14:28 velcro sshd[4266]: Received disconnect from 62.76.47.113: 11: Bye Bye
+Aug  8 13:14:30 velcro sshd[4269]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  8 13:14:30 velcro unix_chkpwd[4271]: password check failed for user (root)
+Aug  8 13:14:30 velcro sshd[4269]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
+Aug  8 13:14:32 velcro sshd[4269]: Failed password for root from 62.76.47.113 port 46242 ssh2
+Aug  8 13:14:32 velcro sshd[4270]: Received disconnect from 62.76.47.113: 11: Bye Bye
+Aug  8 13:14:34 velcro sshd[4272]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  8 13:14:34 velcro unix_chkpwd[4274]: password check failed for user (root)
+Aug  8 13:14:34 velcro sshd[4272]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
+Aug  8 13:14:36 velcro sshd[4272]: Failed password for root from 62.76.47.113 port 46819 ssh2
+Aug  8 13:14:36 velcro sshd[4273]: Received disconnect from 62.76.47.113: 11: Bye Bye
+Aug  8 13:14:38 velcro sshd[4275]: Address 62.76.47.113 maps to 62-76-47-113.clodo.ru, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  8 13:14:38 velcro unix_chkpwd[4277]: password check failed for user (root)
+Aug  8 13:14:38 velcro sshd[4275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=62.76.47.113  user=root
+Aug  8 13:14:39 velcro sshd[4275]: Failed password for root from 62.76.47.113 port 47449 ssh2
+Aug  8 13:14:40 velcro sshd[4276]: Received disconnect from 62.76.47.113: 11: Bye Bye
+Aug  9 01:36:46 velcro sshd[11796]: Did not receive identification string from 66.35.208.204
+Aug  9 01:44:50 velcro sshd[11876]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 01:44:50 velcro unix_chkpwd[11879]: password check failed for user (root)
+Aug  9 01:44:50 velcro sshd[11876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
+Aug  9 01:44:52 velcro sshd[11876]: Failed password for root from 66.35.208.204 port 40105 ssh2
+Aug  9 01:44:52 velcro sshd[11877]: Received disconnect from 66.35.208.204: 11: Bye Bye
+Aug  9 01:44:53 velcro sshd[11880]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 01:44:53 velcro unix_chkpwd[11883]: password check failed for user (root)
+Aug  9 01:44:53 velcro sshd[11880]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
+Aug  9 01:44:55 velcro sshd[11880]: Failed password for root from 66.35.208.204 port 41785 ssh2
+Aug  9 01:44:55 velcro sshd[11881]: Received disconnect from 66.35.208.204: 11: Bye Bye
+Aug  9 01:44:55 velcro sshd[11884]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 01:44:55 velcro unix_chkpwd[11886]: password check failed for user (root)
+Aug  9 01:44:55 velcro sshd[11884]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
+Aug  9 01:44:57 velcro sshd[11884]: Failed password for root from 66.35.208.204 port 43980 ssh2
+Aug  9 01:44:57 velcro sshd[11885]: Received disconnect from 66.35.208.204: 11: Bye Bye
+Aug  9 01:44:58 velcro sshd[11887]: reverse mapping checking getaddrinfo for scglobal204.globallocate.com [66.35.208.204] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 01:44:58 velcro unix_chkpwd[11889]: password check failed for user (root)
+Aug  9 01:44:58 velcro sshd[11887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=66.35.208.204  user=root
+Aug  9 01:45:00 velcro sshd[11887]: Failed password for root from 66.35.208.204 port 44421 ssh2
+Aug  9 01:45:00 velcro sshd[11888]: Received disconnect from 66.35.208.204: 11: Bye Bye
+Aug  9 04:13:55 velcro sshd[13657]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 04:13:55 velcro unix_chkpwd[13660]: password check failed for user (root)
+Aug  9 04:13:55 velcro sshd[13657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
+Aug  9 04:13:57 velcro sshd[13657]: Failed password for root from 67.23.177.229 port 53616 ssh2
+Aug  9 04:13:57 velcro sshd[13658]: Received disconnect from 67.23.177.229: 11: Bye Bye
+Aug  9 04:13:57 velcro sshd[13661]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 04:13:57 velcro unix_chkpwd[13663]: password check failed for user (root)
+Aug  9 04:13:57 velcro sshd[13661]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
+Aug  9 04:14:00 velcro sshd[13661]: Failed password for root from 67.23.177.229 port 53894 ssh2
+Aug  9 04:14:00 velcro sshd[13662]: Received disconnect from 67.23.177.229: 11: Bye Bye
+Aug  9 04:14:00 velcro sshd[13664]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 04:14:00 velcro unix_chkpwd[13666]: password check failed for user (root)
+Aug  9 04:14:00 velcro sshd[13664]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
+Aug  9 04:14:02 velcro sshd[13664]: Failed password for root from 67.23.177.229 port 54237 ssh2
+Aug  9 04:14:02 velcro sshd[13665]: Received disconnect from 67.23.177.229: 11: Bye Bye
+Aug  9 04:14:02 velcro sshd[13667]: Address 67.23.177.229 maps to royalityvipbonuses.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug  9 04:14:02 velcro unix_chkpwd[13669]: password check failed for user (root)
+Aug  9 04:14:02 velcro sshd[13667]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=67.23.177.229  user=root
+Aug  9 04:14:04 velcro sshd[13667]: Failed password for root from 67.23.177.229 port 54500 ssh2
+Aug  9 04:14:04 velcro sshd[13668]: Received disconnect from 67.23.177.229: 11: Bye Bye
+Aug 10 00:00:44 velcro gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=1160 euid=1160 tty=:0.0 ruser= rhost=  user=ranki039
+Aug 10 00:11:18 velcro pam: gdm-password[25766]: pam_selinux_permit(gdm-password:auth): Cannot determine the user's name
+Aug 10 00:11:18 velcro pam: gdm-password[25766]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
+Aug 10 00:11:18 velcro pam: gdm-password[25766]: pam_succeed_if(gdm-password:auth): error retrieving user name: Conversation error
+Aug 10 00:11:18 velcro pam: gdm-password[25766]: gkr-pam: couldn't get the user name: Conversation error
+Aug 10 11:38:52 velcro sshd[522]: Accepted publickey for nx from 146.57.20.250 port 2120 ssh2
+Aug 10 11:38:53 velcro sshd[522]: pam_unix(sshd:session): session opened for user nx by (uid=0)
+Aug 10 11:38:55 velcro sshd[689]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=pehng
+Aug 10 11:38:55 velcro sshd[689]: Accepted password for pehng from 127.0.0.1 port 52218 ssh2
+Aug 10 11:38:55 velcro sshd[689]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 10 14:29:40 velcro sshd[522]: pam_unix(sshd:session): session closed for user nx
+Aug 10 14:50:38 velcro sshd[4037]: Accepted publickey for nx from 146.57.20.250 port 2346 ssh2
+Aug 10 14:50:38 velcro sshd[4037]: pam_unix(sshd:session): session opened for user nx by (uid=0)
+Aug 10 14:50:39 velcro sshd[4196]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=pehng
+Aug 10 14:50:39 velcro sshd[4196]: Accepted password for pehng from 127.0.0.1 port 46939 ssh2
+Aug 10 14:50:39 velcro sshd[4196]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 10 14:50:50 velcro sshd[4198]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Aug 10 14:50:50 velcro sshd[4196]: pam_unix(sshd:session): session closed for user pehng
+Aug 10 15:21:58 velcro sshd[5521]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=x-146-57-20-250.mrs.umn.edu  user=pehng
+Aug 10 15:21:58 velcro sshd[5521]: Accepted password for pehng from 146.57.20.250 port 2378 ssh2
+Aug 10 15:21:58 velcro sshd[5521]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 10 15:21:58 velcro sshd[5524]: subsystem request for sftp
+Aug 10 15:22:26 velcro sshd[5521]: pam_unix(sshd:session): session closed for user pehng
+Aug 10 15:41:02 velcro sshd[4037]: pam_unix(sshd:session): session closed for user nx
+Aug 10 15:41:02 velcro sshd[691]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Aug 10 15:41:02 velcro sshd[689]: pam_unix(sshd:session): session closed for user pehng
+Aug 10 20:09:00 velcro sshd[8437]: Did not receive identification string from 82.210.152.11
+Aug 10 20:42:32 velcro sshd[8759]: reverse mapping checking getaddrinfo for 78-159-105-197.local [78.159.105.197] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 10 20:42:32 velcro unix_chkpwd[8771]: password check failed for user (root)
+Aug 10 20:42:32 velcro sshd[8759]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.159.105.197  user=root
+Aug 10 20:42:34 velcro sshd[8759]: Failed password for root from 78.159.105.197 port 54735 ssh2
+Aug 10 20:42:34 velcro sshd[8760]: Connection closed by 78.159.105.197
+Aug 10 23:01:02 velcro unix_chkpwd[10158]: password check failed for user (root)
+Aug 10 23:01:02 velcro sshd[10140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:04 velcro sshd[10140]: Failed password for root from 58.215.170.186 port 33145 ssh2
+Aug 10 23:01:04 velcro sshd[10141]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:06 velcro unix_chkpwd[10161]: password check failed for user (root)
+Aug 10 23:01:06 velcro sshd[10159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:08 velcro sshd[10159]: Failed password for root from 58.215.170.186 port 33366 ssh2
+Aug 10 23:01:09 velcro sshd[10160]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:11 velcro unix_chkpwd[10165]: password check failed for user (root)
+Aug 10 23:01:11 velcro sshd[10163]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:13 velcro sshd[10163]: Failed password for root from 58.215.170.186 port 33649 ssh2
+Aug 10 23:01:13 velcro sshd[10164]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 10 23:01:15 velcro unix_chkpwd[10168]: password check failed for user (root)
+Aug 10 23:01:15 velcro sshd[10166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.215.170.186  user=root
+Aug 10 23:01:17 velcro sshd[10166]: Failed password for root from 58.215.170.186 port 33877 ssh2
+Aug 10 23:01:17 velcro sshd[10167]: Received disconnect from 58.215.170.186: 11: Bye Bye
+Aug 11 01:44:47 velcro unix_chkpwd[11808]: password check failed for user (root)
+Aug 11 01:44:47 velcro sshd[11806]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:49 velcro sshd[11806]: Failed password for root from 223.224.40.42 port 48996 ssh2
+Aug 11 01:44:49 velcro sshd[11807]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:44:51 velcro unix_chkpwd[11812]: password check failed for user (root)
+Aug 11 01:44:51 velcro sshd[11810]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:53 velcro sshd[11810]: Failed password for root from 223.224.40.42 port 49236 ssh2
+Aug 11 01:44:54 velcro sshd[11811]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:44:56 velcro unix_chkpwd[11816]: password check failed for user (root)
+Aug 11 01:44:56 velcro sshd[11814]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:44:58 velcro sshd[11814]: Failed password for root from 223.224.40.42 port 49514 ssh2
+Aug 11 01:44:58 velcro sshd[11815]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 01:45:01 velcro unix_chkpwd[11819]: password check failed for user (root)
+Aug 11 01:45:01 velcro sshd[11817]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.224.40.42  user=root
+Aug 11 01:45:02 velcro sshd[11817]: Failed password for root from 223.224.40.42 port 49760 ssh2
+Aug 11 01:45:02 velcro sshd[11818]: Received disconnect from 223.224.40.42: 11: Bye Bye
+Aug 11 13:48:52 velcro sshd[19293]: reverse mapping checking getaddrinfo for 69-42-245-68.fedtel.stellarllc.net [69.42.245.68] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 11 13:49:07 velcro sshd[19293]: Accepted publickey for mcphee from 69.42.245.68 port 40435 ssh2
+Aug 11 13:49:07 velcro sshd[19293]: pam_unix(sshd:session): session opened for user mcphee by (uid=0)
+Aug 11 14:55:02 velcro sshd[19293]: pam_unix(sshd:session): session closed for user mcphee
+Aug 12 00:28:25 velcro sshd[27114]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:25 velcro unix_chkpwd[27117]: password check failed for user (root)
+Aug 12 00:28:25 velcro sshd[27114]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:27 velcro sshd[27114]: Failed password for root from 109.230.240.3 port 53593 ssh2
+Aug 12 00:28:27 velcro sshd[27115]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:28 velcro sshd[27118]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:28 velcro unix_chkpwd[27120]: password check failed for user (root)
+Aug 12 00:28:28 velcro sshd[27118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:30 velcro sshd[27118]: Failed password for root from 109.230.240.3 port 53905 ssh2
+Aug 12 00:28:30 velcro sshd[27119]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:31 velcro sshd[27121]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:31 velcro unix_chkpwd[27123]: password check failed for user (root)
+Aug 12 00:28:31 velcro sshd[27121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:33 velcro sshd[27121]: Failed password for root from 109.230.240.3 port 54258 ssh2
+Aug 12 00:28:33 velcro sshd[27122]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 00:28:34 velcro sshd[27124]: Address 109.230.240.3 maps to server.businessnetworkleads.org, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Aug 12 00:28:34 velcro unix_chkpwd[27126]: password check failed for user (root)
+Aug 12 00:28:34 velcro sshd[27124]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.230.240.3  user=root
+Aug 12 00:28:36 velcro sshd[27124]: Failed password for root from 109.230.240.3 port 54597 ssh2
+Aug 12 00:28:36 velcro sshd[27125]: Received disconnect from 109.230.240.3: 11: Bye Bye
+Aug 12 23:27:54 velcro sshd[14033]: Accepted publickey for nx from 12.46.213.219 port 9503 ssh2
+Aug 12 23:27:54 velcro sshd[14033]: pam_unix(sshd:session): session opened for user nx by (uid=0)
+Aug 12 23:27:56 velcro sshd[14192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=pehng
+Aug 12 23:27:56 velcro sshd[14192]: Accepted password for pehng from 127.0.0.1 port 45554 ssh2
+Aug 12 23:27:56 velcro sshd[14192]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 13 11:31:05 velcro sshd[14033]: pam_unix(sshd:session): session closed for user nx
+Aug 13 11:59:29 velcro sshd[23483]: Accepted publickey for nx from 12.46.213.219 port 42474 ssh2
+Aug 13 11:59:29 velcro sshd[23483]: pam_unix(sshd:session): session opened for user nx by (uid=0)
+Aug 13 11:59:31 velcro sshd[23642]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=pehng
+Aug 13 11:59:31 velcro sshd[23642]: Accepted password for pehng from 127.0.0.1 port 33441 ssh2
+Aug 13 11:59:31 velcro sshd[23642]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 13 11:59:43 velcro sshd[23644]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Aug 13 11:59:43 velcro sshd[23642]: pam_unix(sshd:session): session closed for user pehng
+Aug 13 12:15:31 velcro sshd[24444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=12.46.213.219  user=pehng
+Aug 13 12:15:31 velcro sshd[24444]: Accepted password for pehng from 12.46.213.219 port 13589 ssh2
+Aug 13 12:15:31 velcro sshd[24444]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 13 12:15:31 velcro sshd[24447]: subsystem request for sftp
+Aug 13 12:17:29 velcro sshd[24444]: pam_unix(sshd:session): session closed for user pehng
+Aug 13 12:24:42 velcro sshd[24631]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=12.46.213.219  user=pehng
+Aug 13 12:24:42 velcro sshd[24631]: Accepted password for pehng from 12.46.213.219 port 53854 ssh2
+Aug 13 12:24:42 velcro sshd[24631]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 13 12:24:42 velcro sshd[24634]: subsystem request for sftp
+Aug 13 12:25:12 velcro sshd[24631]: pam_unix(sshd:session): session closed for user pehng
+Aug 13 12:39:09 velcro sshd[23483]: pam_unix(sshd:session): session closed for user nx
+Aug 13 14:23:49 velcro sshd[26070]: reverse mapping checking getaddrinfo for 65-42-208-133.ded.ameritech.net [65.42.208.133] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 13 14:23:49 velcro sshd[26070]: Accepted publickey for nx from 65.42.208.133 port 1428 ssh2
+Aug 13 14:23:49 velcro sshd[26070]: pam_unix(sshd:session): session opened for user nx by (uid=0)
+Aug 13 14:23:51 velcro sshd[26229]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=pehng
+Aug 13 14:23:51 velcro sshd[26229]: Accepted password for pehng from 127.0.0.1 port 38335 ssh2
+Aug 13 14:23:51 velcro sshd[26229]: pam_unix(sshd:session): session opened for user pehng by (uid=0)
+Aug 13 14:24:05 velcro sshd[26231]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Aug 13 14:24:05 velcro sshd[26229]: pam_unix(sshd:session): session closed for user pehng
+Aug 13 15:34:56 velcro sshd[26070]: pam_unix(sshd:session): session closed for user nx
+Aug 13 15:34:57 velcro sshd[14194]: Received disconnect from 127.0.0.1: 11: disconnected by user
+Aug 13 15:34:57 velcro sshd[14192]: pam_unix(sshd:session): session closed for user pehng
+Aug 13 19:50:22 velcro sshd[30944]: reverse mapping checking getaddrinfo for 69-42-245-68.fedtel.stellarllc.net [69.42.245.68] failed - POSSIBLE BREAK-IN ATTEMPT!
+Aug 13 19:50:34 velcro sshd[30944]: Accepted publickey for mcphee from 69.42.245.68 port 42321 ssh2
+Aug 13 19:50:34 velcro sshd[30944]: pam_unix(sshd:session): session opened for user mcphee by (uid=0)
+Aug 13 21:06:24 velcro sshd[30944]: pam_unix(sshd:session): session closed for user mcphee

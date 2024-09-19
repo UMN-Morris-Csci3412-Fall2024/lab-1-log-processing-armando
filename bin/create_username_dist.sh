@@ -1,5 +1,7 @@
 #!/bin/bash
 
+here=`pwd`
+
 if [ -z "$1" ]; then
   echo "Usage: $0 <directory>"
   exit 1
@@ -10,12 +12,12 @@ if ! cd "$target"; then
   exit 1
 fi
 out="username_dist.html"
-head="../html_components/username_dist_header.html"
-foot="../html_components/username_dist_footer.html"
+head="$here/html_components/username_dist_header.html"
+foot="$here/html_components/username_dist_footer.html"
 if [ -f "$head" ]; then
   cat "$head" > "$out"
 else
-  echo "Header file missing: $head"
+  echo "Header file missing (we are here: $here): $head"
   exit 1
 fi
 temp=$(mktemp)
